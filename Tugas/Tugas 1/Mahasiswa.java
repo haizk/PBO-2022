@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Mahasiswa {
-    String NIM, nama, jenisKelamin, alamat;
+    String nim, nama, jenisKelamin, alamat;
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -25,8 +25,8 @@ public class Mahasiswa {
         mahasiswa.printData();
     }
 
-    void isiData(String NIM, String nama, String jenisKelamin, String alamat) {
-        this.NIM = NIM;
+    void isiData(String nim, String nama, String jenisKelamin, String alamat) {
+        this.nim = nim;
         this.nama = nama;
         this.jenisKelamin = jenisKelamin;
         this.alamat = alamat;
@@ -34,7 +34,7 @@ public class Mahasiswa {
 
     void printData() {
         System.out.println("\nHASIL DATA MAHASISWA");
-        System.out.println("NIM\t\t"+this.NIM);
+        System.out.println("NIM\t\t"+this.nim);
         System.out.println("Nama\t\t"+this.nama);
         System.out.println("Jenis Kelamin\t"+this.jenisKelamin);
         System.out.println("Alamat\t\t"+this.alamat);
