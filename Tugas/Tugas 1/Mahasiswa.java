@@ -6,7 +6,6 @@ public class Mahasiswa {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Mahasiswa mahasiswa = new Mahasiswa();
-
         System.out.println("PENGISIAN DATA MAHASISWA");
 
         System.out.print("Masukkan NIM anda: ");
@@ -26,18 +25,18 @@ public class Mahasiswa {
         mahasiswa.printData();
     }
 
-    void isiData(String inputNIM, String inputNama, String inputJenisKelamin, String inputAlamat) {
-        NIM = inputNIM;
-        nama = inputNama;
-        jenisKelamin = inputJenisKelamin;
-        alamat = inputAlamat;
+    void isiData(String NIM, String nama, String jenisKelamin, String alamat) {
+        this.NIM = NIM;
+        this.nama = nama;
+        this.jenisKelamin = jenisKelamin;
+        this.alamat = alamat;
     }
 
     void printData() {
         System.out.println("\nHASIL DATA MAHASISWA");
-        System.out.println("NIM\t\t"+NIM);
-        System.out.println("Nama\t\t"+nama);
-        System.out.println("Jenis Kelamin\t"+jenisKelamin);
-        System.out.println("Alamat\t\t"+alamat);
+        System.out.println("NIM\t\t"+this.NIM);
+        System.out.println("Nama\t\t"+this.nama);
+        System.out.println("Jenis Kelamin\t"+this.jenisKelamin);
+        System.out.println("Alamat\t\t"+this.alamat);
     }
 }
