@@ -13,6 +13,7 @@ public class Kubus {
         volume = Math.pow(this.sisiKubus, 3);
         return volume;
     }
+    
     public int hitungLuasPermukaan() {
         int luasPermukaan = 0;
         luasPermukaan = 6 * this.sisiKubus * this.sisiKubus;
