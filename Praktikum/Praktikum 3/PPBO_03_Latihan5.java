@@ -7,11 +7,14 @@ public class PPBO_03_Latihan5 {
     public static void main(String[] args) {
         int i = 0;
         while (true) {
-            System.out.println("Hello ke-" + i);
+            if(i % 3 == 0 && i > 0)
+                System.out.println("Hello ke-" + i);
+            if(i == 300)
+                break;
             i++;
 
             try {
-                TimeUnit.SECONDS.sleep(2);
+                TimeUnit.SECONDS.sleep(0);
             } catch (Exception x) {
                 x.printStackTrace();
             }
