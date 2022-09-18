@@ -8,7 +8,7 @@ public class Latihan2B {
 }
 
 /*
-    2.A Rewrite the following while loops as for statements
+    2.B Rewrite the following while loops as for statements
     
     int count = 1, sum = 0;
     while(count <= 30) {
