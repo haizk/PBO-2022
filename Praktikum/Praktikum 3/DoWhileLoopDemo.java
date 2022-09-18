@@ -1,4 +1,4 @@
-public class DoWhileDemo {
+public class DoWhileLoopDemo {
     public static void main(String[] args) {
         int arr[] = {5, 1, 4, 2, 3};
         // for (int i = 1; i < 6; i++) {
