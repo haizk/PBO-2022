@@ -5,16 +5,15 @@ import java.util.concurrent.TimeUnit;
 
 public class PPBO_03_Latihan5 {
     public static void main(String[] args) {
-        int i = 0;
+        int i = 3;
         while (true) {
-            if(i % 3 == 0 && i > 0)
-                System.out.println("Hello ke-" + i);
+            System.out.println("Hello ke-" + i);
             if(i == 300)
                 break;
-            i++;
+            i+=3;
 
             try {
-                TimeUnit.SECONDS.sleep(0);
+                TimeUnit.SECONDS.sleep(2);
             } catch (Exception x) {
                 x.printStackTrace();
             }
