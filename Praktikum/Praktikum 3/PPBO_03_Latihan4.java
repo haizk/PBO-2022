@@ -11,7 +11,7 @@ public class PPBO_03_Latihan4 {
         // PERBAIKAN
         int i = 0;
         do {
-            System.out.println("elemen ke-" + i + " = " + arr[i]);
+            System.out.println("elemen ke-" + (i+1) + " = " + arr[i]);
         } while (++i < 5);
     }
 }
