@@ -33,5 +33,5 @@ public class PPBO_03_Latihan3 {
    Apabila memang ingin menuliskan index ke-0 merupakan elemen ke-1
    maka pada System.out.println variabel i ditambah 1
    menjadi (i+1)
-   *diberi tanda kurung agar tidak salah dimengerti oleh program
+   *diberi tanda kurung agar tidak menimbulkan kesalahpahaman
 */
