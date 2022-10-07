@@ -1,23 +1,22 @@
-// Nama :
-// NIM  :
+// Nama : Hezkiel Bram Setiawan
+// NIM  : M0512030
 
 import java.util.Scanner;
 
 public class PPBO_04_Latihan4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
-        int x = 10;
 
+        @SuppressWarnings("unused")
+        int x = 10;
+        
         try {
             while(true){
                 System.out.println("Please input non-integer to trigger exception: ");
                 x = scanner.nextInt();
             }
         } catch (Exception e) {
-
-
-            int exceptionLineNumber; // simpan angka exception line number di variabel ini
+            int exceptionLineNumber = (e.getStackTrace())[(e.getStackTrace()).length - 1].getLineNumber(); // simpan angka exception line number di variabel ini
             System.out.println("Whoops! exception occured on line: " + exceptionLineNumber);
         }
 
@@ -37,4 +36,4 @@ public class PPBO_04_Latihan4 {
 //  - trace yang diperlukan berada di paling akhir stack
 
 // Output yang diharapkan:
-// Whoops! exception occured on line: 12
+// Whoops! exception occured on line: 16
